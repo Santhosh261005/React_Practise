@@ -5,10 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+let menu = (<ul>
+  <li>Home</li>
+  <li>About</li>
+  <li>Contact</li>
+  <li><App/>  </li>
+</ul>)
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+   menu
+   
 );
 
 // If you want to start measuring performance in your app, pass a function
