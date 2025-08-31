@@ -1,4 +1,4 @@
 
 const name = 'Santhosh';
 
-export default name;
+ export default name;

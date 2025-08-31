@@ -5,14 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-let menu = (<ul>
-  <li>Home</li>
-  <li>About</li>
-  <li>Contact</li>
-  <li><App/>  </li>
-</ul>)
+
 root.render(
-   menu
+   <App/>
    
 );
 
