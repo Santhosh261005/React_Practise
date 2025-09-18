@@ -1,18 +1,11 @@
 //import logo from './logo.svg';
 import './App.css';
-import Props from "./Props"
-
-const arr = [
-  {name: "Santhosh",age: 20},
-  {name: "Venzz",age: 21},
-  {name:"XYZ"}]
+//import App1 from './EAD-Portals';
+import Counter from "./EAD-Signals"
 
 function App() {
   return (
-    <>
-    {/*arr.map((e,index)=><Props key = {index} name={e.name} age={e.age}/>)*/} 
-    <Props/>
-    </>
+   <Counter/>
   );
 
 }

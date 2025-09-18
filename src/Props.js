@@ -8,3 +8,4 @@ function Props({ name = "Guest", age = 18 }) {
 }
 
 export default Props;
+
